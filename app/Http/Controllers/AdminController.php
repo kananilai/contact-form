@@ -21,7 +21,6 @@ class AdminController extends Controller
         $end = $request->end;
         $email = $request->emial;
         $data = Contact::query();
-
         if(!empty($fullname)){
             $data->where('fullname', 'like',"%$fullname%");
         }

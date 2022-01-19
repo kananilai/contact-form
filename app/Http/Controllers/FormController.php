@@ -25,6 +25,7 @@ class FormController extends Controller
         Contact::create($data);
         return redirect('/thanks');
     }
+    
     public function thanks()
     {
         return view('thanks');
