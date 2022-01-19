@@ -1,0 +1,96 @@
+.title{
+    padding-top:15px;
+    text-align: center;
+}
+th {
+    padding: 5px 40px;
+}
+.result td {
+    padding: 10px 40px;
+    text-align: center;
+}
+svg.w-5.h-5 {
+width: 30px;
+height: 30px;
+}
+
+.id{
+    width:5%;
+    margin-bottom: 10px;;
+}
+.name{
+    width:15%;
+}
+.gender{
+    width:10%;
+}
+.result table td:hover{
+    white-space: normal;
+}
+.result table td {
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+table thead th{
+    height:40px;
+    border-bottom: 2px solid #000;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.button{
+    text-align: center;
+    margin:10px auto;
+    display:block;
+    border:#000;
+    border-radius: 3px;
+    background-color: #000;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width: 80px;
+}
+
+/* 検索フォーム */
+.search{
+    border:1px solid #000;
+    margin:40px;
+    padding:20px;
+}
+.button_search{
+    text-align: center;
+    margin:10px auto;
+    display:block;
+    border:#000;
+    border-radius: 3px;
+    background-color: #000;
+    text-align: center;
+    color: white;
+    padding:10px 18px;
+    font-weight: bold;
+    width: 130px;
+}
+.label{
+    font-weight:bold;
+}
+.name_gender{
+    display:flex;
+}
+.input{
+    height:40px;
+    margin:10px;
+}
+.name_gender{
+    margin:30px;
+}
+.date_input{
+    width:285px;
+}
+.btn_cell{
+    text-align: center;
+    align-items: center;
+}
+.fix{
+    color:#000;
+}
